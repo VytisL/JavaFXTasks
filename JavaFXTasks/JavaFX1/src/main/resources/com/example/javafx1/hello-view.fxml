@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="189.0" prefWidth="256.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx1.JavaFXOneController">
+   <children>
+      <Button layoutX="40.0" layoutY="47.0" mnemonicParsing="false" onAction="#mainButton" prefHeight="95.0" prefWidth="177.0" text="Click this button to get crushed by a 5 ton slab of granite" textAlignment="CENTER" wrapText="true" />
+   </children>
+</Pane>

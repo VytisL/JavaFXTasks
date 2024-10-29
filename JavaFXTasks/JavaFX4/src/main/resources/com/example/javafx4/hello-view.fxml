@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx4.HelloController">
+   <children>
+      <Button alignment="CENTER" layoutX="14.0" layoutY="65.0" mnemonicParsing="false" onAction="#plusButton" prefHeight="45.0" prefWidth="45.0" text="+" />
+      <Button alignment="CENTER" layoutX="59.0" layoutY="65.0" mnemonicParsing="false" onAction="#minusButton" prefHeight="45.0" prefWidth="45.0" text="-" />
+      <Button alignment="CENTER" layoutX="103.0" layoutY="65.0" mnemonicParsing="false" onAction="#multButton" prefHeight="45.0" prefWidth="45.0" text="*" />
+      <Button alignment="CENTER" layoutX="148.0" layoutY="65.0" mnemonicParsing="false" onAction="#divButton" prefHeight="45.0" prefWidth="45.0" text="/" />
+      <Button layoutX="14.0" layoutY="184.0" mnemonicParsing="false" onAction="#clearButton" prefHeight="45.0" prefWidth="60.0" text="Clear" />
+      <TextField fx:id="textFieldOne" layoutX="14.0" layoutY="25.0" prefHeight="25.0" prefWidth="178.0" promptText="Enter first number" />
+      <TextField fx:id="textFieldTwo" layoutX="14.0" layoutY="134.0" prefHeight="25.0" prefWidth="178.0" promptText="Enter second number" />
+      <Button layoutX="132.0" layoutY="184.0" mnemonicParsing="false" onAction="#enterButton" prefHeight="45.0" prefWidth="60.0" text="Enter" />
+      <Label fx:id="outputLabel" layoutX="14.0" layoutY="265.0" prefHeight="45.0" prefWidth="178.0" text="____" />
+   </children>
+</Pane>
